@@ -1,0 +1,183 @@
+{
+  "warm-drinks":[
+		{
+			"title": "Coffee",
+			"description": "Locally roasted using 'Brazallian Santos' beans. (Dark, Blonde, Jamaican, Italian & Decaf roasts) -12 oz & 20 oz",
+			"price": "$1.60 / $2.05",
+			"type": "coffee",
+			"img": "https://www.cafevertical.com/wp-content/uploads/2019/04/coffee-150x150.jpg",
+      "id":1
+		},
+		{
+			"title": "Americano",
+			"description": "Espresso Shot, Hot Water - 12oz & 20oz",
+			"price": "$2.25 / $3.00",
+			"type": "americano",
+      "img" :"https://www.cafevertical.com/wp-content/uploads/2017/01/h-1-list-icon-img-4-150x150.jpg",
+			"id": 2
+		},
+		{
+			"title": "Espresso",
+			"description": "Short & Long Shot Espressos made with rich Italian Moak roast straight from italy",
+			"price": "$1.00",
+			"type": "espresso",
+			"img": "https://www.cafevertical.com/wp-content/uploads/2017/01/h-1-list-icon-img-7-150x150.jpg",
+			"id": 3
+		},
+		{
+			"title": "Cappuccino",
+			"description": "Espresso w/ Smoothed Layer of Froth - 12oz & 20oz ",
+			"price": " $3.60 / $4.35",
+			"type": "cappuccino",
+			"img": "https://www.cafevertical.com/wp-content/uploads/2017/01/h-1-list-icon-img-5-150x150.jpg",
+			"id": 4
+		},
+		{
+			"title": "latte (Plain)",
+			"description": "Espresso, Steamed Milk w/ NO Flavoring - 12oz & 20oz",
+			"price": "$3.85 / $.435 ",
+			"type": "latte",
+			"img": "https://www.cafevertical.com/wp-content/uploads/2019/03/IMG_3171-e1555285533533-150x150.jpg",
+			"id": 5
+		},
+		{
+			"title": "latte vertical",
+			"description": "Espresso w/ Steamed milk, Wip Drizzle & Choice of Flavoring -12oz & 20oz",
+			"price": "$4.20 / $4.99",
+			"type": "latter vertical",
+			"img": "https://www.cafevertical.com/wp-content/uploads/2019/04/IMG_3159-150x150.jpg",
+			"id": 6
+		},
+		{
+			"title": "Chai",
+			"description": "",
+			"price": "$4.85 / $5.35",
+			"type": "chai",
+			"img": "https://www.cafevertical.com/wp-content/uploads/2019/04/hot-coco-150x150.jpg",
+			"id": 7
+		},
+		{
+			"title": "skinny latte",
+			"description": "Espresso w/ Almond or Soy Milk -12oz & 20oz",
+			"price": "$3.90 / $4.45",
+			"type": "skinny latte",
+			"img": "https://www.cafevertical.com/wp-content/uploads/2019/04/skinny-latte-150x150.jpg",
+			"id": 8
+		},
+		{
+			"title": "hot chocolate",
+			"description": "Hot Chocolate - 12oz & 20oz",
+			"price": "$2.10 / $3.10",
+			"type": "hot coco",
+			"img": "https://www.cafevertical.com/wp-content/uploads/2019/04/hot-coco-150x150.jpg",
+			"id": 9
+		},
+		{
+			"title": "hot tea",
+			"description": "hot tea -12oz & 20oz",
+			"price": "$1.50 / $2.00",
+			"type": "skinny latte",
+			"img": "https://www.cafevertical.com/wp-content/uploads/2016/03/product-image-11-gallery-4-2-150x150.jpg",
+			"id": 10
+		},
+		{
+			"title": "coffee box",
+			"description": "",
+			"price": "$13.99",
+			"type": "coffee-box",
+			"img": "https://www.cafevertical.com/wp-content/uploads/2021/10/coffee-box-150x150.jpg",
+			"id": 11
+		}
+	],
+
+  "cold-drinks":[
+		{
+			"title": "bubble tea",
+			"description": "Comes in two sizes -20oz",
+			"price": "$1.60 / $2.05",
+			"type": "coffee",
+      "img":"https://www.cafevertical.com/wp-content/uploads/2021/10/bubbletea-150x150.jpg",
+      "id": 1 
+		},
+		{
+			"title": "frozen lemonade",
+			"description": "Choice of Flavors (Strawberr, Blueberry, Raspberry & Blue Raspberry)-20oz",
+			"price": "$2.99",
+			"type": "lemonade",
+      "img":"https://www.cafevertical.com/wp-content/uploads/2019/04/frozen-lemonade-150x150.jpg",
+      "id": 2
+		},
+    {
+			"title": "Real Fruit Smoothies",
+			"description": "Made with REAL FRUIT (Included 1 Fruit), Available in several flavors-Strawberry, Blueberry, Mixed berry, Mango, Banana or Peanut Butter(additional fruit .25 each)-20oz",
+			"price": "$4.99",
+			"type": "smoothie",
+      "img":"https://www.cafevertical.com/wp-content/uploads/2017/01/home-3-icon-img-5-150x150.png",
+      "id": 3 
+		},
+    {
+			"title": "organic protein shake ",
+			"description": "Muscle Protein Powder, Choice of Milk (Whole, Almond, Skim, Soy). Add fruit for $.50-20oz",
+			"price": "$5.60",
+			"type": "protein",
+      "img":"https://www.cafevertical.com/wp-content/uploads/2019/06/protein-shake-150x150.jpg",
+      "id": 4
+		},
+    {
+			"title": "iced coffee protein shake",
+			"description": "Iced coffee, Protein Powder, Almond Milk, Mocha (add real fruit for additional .25)-20oz",
+			"price": "$5.15",
+			"type": "iced protein",
+      "img":"https://www.cafevertical.com/wp-content/uploads/2019/03/IMG_2760-150x150.png",
+      "id": 5
+		},
+    {
+			"title": "iced coffee",
+			"description": "Fresh Brewed Coffeem Ice-20oz",
+			"price": "$3.00",
+			"type": "iced coffee",
+      "img":"https://www.cafevertical.com/wp-content/uploads/2019/03/IMG_2466-150x150.jpg",
+      "id": 6
+		},
+    {
+			"title": "frappe",
+			"description": "Frappe Mix, Whole Milk, Ice and Choice of Flavors-20oz",
+			"price": "$5.50",
+			"type": "frappe",
+      "img":"https://www.cafevertical.com/wp-content/uploads/2019/04/IMG_3224-150x150.jpg",
+      "id": 7
+		},
+    {
+			"title": "iced latte",
+			"description": "Espresso Milk, Ice and Choice of Flavors-20oz",
+			"price": "$4.15",
+			"type": "iced latte",
+      "img":"https://www.cafevertical.com/wp-content/uploads/2017/01/h-1-list-icon-img-8-150x150.jpg",
+      "id": 8
+		},
+    {
+			"title": "iced capp",
+			"description": "Espresso w/Smoothed Layer of Froth, Ice-20oz",
+			"price": "$4.75",
+			"type": "iced capp",
+      "img":"https://www.cafevertical.com/wp-content/uploads/2017/01/home-3-icon-image-4-150x150.png",
+      "id": 9
+		},
+    {
+			"title": "iced latte vertical",
+			"description": "Espresso, Milk Ice and Choice of Flavors-20oz",
+			"price": "$4.99",
+			"type": "iced vertical",
+      "img":"https://www.cafevertical.com/wp-content/uploads/2017/01/h-1-list-icon-img-10-150x150.jpg",
+      "id": 10
+		},
+    {
+			"title": "iced tea",
+			"description": "Freshed Brewed Tea, Ice(Green or Black)-20oz",
+			"price": "$2.15",
+			"type": "iced tea",
+      "img":"https://www.cafevertical.com/wp-content/uploads/2019/04/hot-coco-150x150.jpg",
+      "id": 11
+		}
+	]
+}
