@@ -1,0 +1,616 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Oswald:wght@700&display=swap");
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 400;
+	line-height: 26px;
+}
+body {
+	background-color: black;
+}
+.navbar {
+	display: flex;
+	flex-direction: column;
+	padding: 1em 2em 0 1.5em;
+	border-bottom: 1px solid #6f4e37;
+	background-color: black;
+}
+
+.nav-top {
+	display: flex;
+	gap: 1em;
+	margin-bottom: 2em;
+}
+
+.top-item {
+	padding: 0.5em 1em 0.5em 0;
+	border-right: 1px solid white;
+	color: white;
+}
+.nav-top .special {
+	display: flex;
+	gap: 1em;
+}
+
+.nav-bot {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.nav-left {
+	display: flex;
+	align-items: center;
+	gap: 1em;
+	padding-bottom: 0.5em;
+}
+
+.nav-left h2,
+.post h3 {
+	color: white;
+}
+.nav-left img {
+	width: 5em;
+}
+
+.nav-right a {
+	text-decoration: none;
+	color: white;
+	padding-left: 1em;
+	font-weight: 600;
+}
+.nav-right {
+	display: flex;
+	gap: 1.3em;
+	align-items: center;
+	font-size: 1em;
+}
+
+.nav-right .icons i {
+	padding: 0 1em 0 1em;
+	cursor: pointer;
+}
+.nav-right a:nth-child(5) {
+	padding-right: 2em;
+	border-right: 1px solid rgba(255, 255, 255, 0.514);
+}
+
+.nav-right a:hover {
+	color: #6f4e37;
+	transition: 0.3s;
+}
+
+i:hover {
+	opacity: 0.8;
+}
+
+h1,
+h2,
+h3 {
+	color: #f9f6ee;
+	font-weight: 800;
+}
+.coffee-vid video {
+	width: 100%;
+}
+.body-container {
+	margin-bottom: -0.2em;
+	overflow: scroll;
+	position: relative;
+}
+
+.coffee-title {
+	position: absolute;
+	top: 15%;
+	left: 25%;
+	right: 25%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.coffee-title .titles {
+	display: flex;
+	gap: 2em;
+	padding-top: 2em;
+}
+
+.coffee-title button {
+	margin-top: 2em;
+	width: 10em;
+	height: 3em;
+	background-color: transparent;
+	border: 1.5px solid #6f4e37;
+	color: white;
+	font-size: 1em;
+	cursor: pointer;
+}
+.coffee-title button:hover {
+	background-color: black;
+	transition: 0.3s;
+	opacity: 0.9;
+}
+
+.coffee-title .btn {
+	width: 20em;
+	background-color: #27190e;
+}
+
+.home-cafe-items {
+	background-color: rgb(15, 16, 17) !important;
+}
+
+fieldset {
+	border: none;
+	border-top: 1px solid #bd9b81;
+}
+
+.vertical-cafe {
+	width: 55%;
+	margin: auto auto;
+	padding: 4em 0 2em 0;
+}
+
+fieldset legend {
+	margin: 0 auto;
+}
+
+.slider-cont {
+	width: 70%;
+	margin: 2em auto 0 auto;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 1.5em;
+}
+
+.coffeeinfo img {
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.image-slider {
+	height: 18em;
+
+	cursor: pointer;
+	white-space: nowrap;
+	transition: ease 1000ms;
+	display: flex;
+	flex-direction: column;
+	background-repeat: none;
+	background-size: cover;
+}
+
+.image-arrow {
+	position: relative;
+}
+.image-slider img {
+	width: 100%;
+}
+
+.image-slider .wifi-img {
+	width: 50%;
+	align-self: flex-end;
+}
+.image-slider:hover {
+	opacity: 0.8;
+}
+
+.image-slider:hover .leftarrow {
+	opacity: 1;
+}
+
+.image-slider:hover .rightarrow {
+	opacity: 1;
+}
+
+.leftarrow {
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	top: 50%;
+	bottom: 50%;
+	left: 5px;
+	transform: translate(0, -50%);
+	color: gray;
+	cursor: pointer;
+	opacity: 0;
+	background-color: white;
+	padding: 1em;
+	height: 0.5em;
+	text-align: center;
+	border-radius: 50%;
+}
+
+.rightarrow {
+	position: absolute;
+	top: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	bottom: 50%;
+	right: 5px;
+	transform: translate(0, -50%);
+	color: gray;
+	background-color: white;
+	cursor: pointer;
+	opacity: 0;
+	padding: 1em;
+	height: 0.5em;
+	border-radius: 50%;
+}
+
+.open-time {
+	background-image: url("https://www.cafevertical.com/wp-content/uploads/2017/01/home-3-img-1.jpg");
+	padding: 1em;
+	font-size: 1em;
+	font-weight: 800;
+}
+.open-time .number {
+	color: #97735a;
+	padding-top: 2em;
+}
+
+.workday {
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	padding: 1.5em 0.1em 0 0;
+	flex-wrap: wrap;
+}
+
+.underline {
+	width: 8em;
+	border-bottom: 1px solid #63432a;
+	opacity: 0.5;
+}
+
+.slider-desc {
+	white-space: pre-line;
+	display: flex;
+	flex-direction: column;
+	gap: 1.5em;
+}
+.slider-desc h3,
+.coffeeinfo-desc h3 {
+	padding-top: 2em;
+}
+.coffeeinfo-desc {
+	display: flex;
+	flex-direction: column;
+	gap: 1.5em;
+}
+
+.coffeeinfo-desc p,
+.slider-desc p {
+	color: gray;
+}
+.coffeeinfo-desc a {
+	text-decoration: none;
+	color: #bd9b81;
+	font-weight: bold;
+}
+
+.carousel-content {
+	margin-top: 10em;
+	height: 25em;
+}
+.carousel {
+	color: white;
+	height: 20em;
+	margin-bottom: 20em;
+	position: relative;
+	cursor: pointer;
+}
+.carousel img {
+	width: 100%;
+}
+
+.overlay-carousel {
+	color: #f9f6ee;
+	position: absolute;
+	text-align: center;
+	top: 40%;
+	width: 100%;
+	opacity: 0;
+}
+
+.overlay-carousel p {
+	color: #bd9b81;
+}
+
+.carousel-items:hover .image {
+	opacity: 0.1;
+	transition: 0.3s;
+}
+
+.carousel-items:hover .overlay-carousel {
+	transition: all 0.5s ease-in-out;
+	opacity: 1;
+}
+
+.choose-title {
+	text-align: center;
+}
+.choose-title h3 {
+	font-family: "Merriweather", serif;
+	color: #bd9b81;
+	padding-bottom: 1.2em;
+}
+
+.choose-title h1 {
+	font-family: "Oswald,sans-serif";
+	color: #f9f6ee;
+	font-size: 2.1em;
+}
+
+.title-border {
+	border-bottom: 1px solid #97735a;
+	width: 10%;
+	height: 2em;
+	margin: auto auto;
+}
+.coffee-img {
+	display: grid;
+	gap: 2em;
+	width: 70%;
+	margin: auto auto;
+	grid-template-columns: repeat(4, 1fr);
+}
+
+.coffee-img .coffee {
+	padding-bottom: 5em;
+}
+
+.coffee,
+.coffee h2 {
+	color: #e8e6e3;
+	text-align: center;
+	padding-top: 1em;
+	font-family: "Oswald", sans-serif;
+	text-transform: uppercase;
+	font-size: 1.1em;
+}
+
+.review {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-top: 5em;
+	background-image: url("https://www.cafevertical.com/wp-content/uploads/2017/01/home-3-parallax-2.jpg");
+	padding-bottom: 3em;
+}
+
+.review h1 {
+	color: #bd9b81;
+}
+
+.review-texts {
+	color: white;
+}
+
+.review-carousel {
+	color: white;
+	text-align: center;
+	width: 50%;
+	margin: auto auto;
+	font-family: "Merriweather", serif;
+	padding-bottom: 3em;
+	font-size: 1.2em;
+	padding-top: 2em;
+}
+
+.review-carousel .special {
+	padding-top: 1em;
+	font-family: "Oswald", sans-serif;
+	font-size: 1.1em;
+}
+.testimonial {
+	text-align: center;
+	padding-top: 10em;
+}
+
+.testimonial button {
+	background-color: transparent;
+	border: 2px solid white;
+	cursor: pointer;
+	color: white;
+	padding: 1em;
+	width: 25em;
+	font-size: 1.1em;
+}
+
+.testimonial button:hover {
+	background-color: #27190e;
+	transition: 0.3s;
+}
+
+.lower-body {
+	display: flex;
+	width: 70%;
+	margin: 3em auto 0 auto;
+	gap: 2em;
+}
+
+.lower-body img {
+	width: 100%;
+}
+.lower-cards {
+	display: flex;
+	flex-direction: column;
+	gap: 2em;
+	margin-bottom: 4em;
+}
+
+.lower-cards p {
+	color: #acacac;
+}
+
+.lower-body button {
+	background-color: #c7a17a;
+	border: none;
+	height: 4em;
+	width: 20em;
+	color: white;
+	font-weight: 800;
+	cursor: pointer;
+}
+
+.lower-body button:hover {
+	background-color: #30271c;
+	transition: 0.3s;
+}
+
+.footer {
+	padding-top: 5em;
+	display: grid;
+	gap: 5em;
+	width: 80%;
+	margin: auto auto;
+	grid-template-columns: repeat(4, 1fr);
+}
+.footer img {
+	width: 60%;
+}
+
+.footer h3 {
+	padding-bottom: 1.5em;
+}
+
+.footer a {
+	text-decoration: none;
+	color: white;
+}
+
+.footer a:hover {
+	color: #c7a17a;
+	transition: 0.3s;
+}
+
+.contact {
+	display: flex;
+	flex-direction: column;
+	color: #acacac;
+	gap: 2em;
+}
+
+.contact p:nth-child(3) {
+	border-bottom: 1px solid #97735a;
+	padding-bottom: 2em;
+}
+
+.opening {
+	font-size: 0.8em;
+}
+.news {
+	display: flex;
+	flex-direction: column;
+	gap: 2em;
+}
+
+.news p {
+	color: #c7a17a;
+}
+.news .subNews {
+	color: white;
+	padding-bottom: 1em;
+	border-bottom: 1px solid #97735a;
+}
+
+.links {
+	display: flex;
+	flex-direction: column;
+	gap: 2em;
+	border-bottom: 1px solid #97735a;
+	height: 30em;
+}
+
+@media only screen and (max-width: 500px) {
+	body {
+		font-size: 10px;
+	}
+	.navbar {
+		font-size: 5px;
+	}
+
+	.coffee-img {
+		display: grid;
+		gap: 2em;
+		width: 70%;
+		margin: auto auto;
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.lower-body {
+		flex-wrap: wrap;
+	}
+	.lower-body img {
+		width: 100%;
+	}
+
+	.footer {
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.footer img {
+		width: 30%;
+	}
+
+	.slider-cont {
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.image-slider {
+		padding-bottom: 40em;
+	}
+
+	.logo img {
+		width: 30%;
+	}
+}
+
+/* CSS For Menu Page */
+.menu-titlebar {
+	background-image: url("https://cdn.pixabay.com/photo/2017/08/06/07/10/coffee-2589763_960_720.jpg");
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-top: 5em;
+}
+
+.menu-titlebar p {
+	color: #c7a17a;
+	padding-bottom: 5em;
+}
+
+.menu-legend {
+	border: none;
+	border-top: 2px solid white;
+}
+
+.menu-coffee {
+	padding-bottom: 4em;
+}
+.menu-container {
+	background-color: #f2f0ea !important;
+	height: 100em;
+}
+
+.menu-titles {
+	display: flex;
+	justify-content: space-between;
+	width: 70%;
+	margin: auto auto;
+	padding-top: 5em;
+}
+
+.menu-titles h1 {
+	color: black;
+}
+
+.menu-title-border {
+	border-bottom: 3px solid #c7a17a;
+	height: 1em;
+	width: 30%;
+}
