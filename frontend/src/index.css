@@ -7,14 +7,14 @@
 	line-height: 26px;
 }
 body {
-	background-color: black;
+	background-color: #151412 !important;
 }
 .navbar {
 	display: flex;
 	flex-direction: column;
 	padding: 1em 2em 0 1.5em;
 	border-bottom: 1px solid #6f4e37;
-	background-color: black;
+	background-color: #151412 !important;
 }
 
 .nav-top {
@@ -47,7 +47,10 @@ body {
 }
 
 .nav-left h2,
-.post h3 {
+.post h3,
+.coffee-title h3,
+.lower-cards h3,
+.review-texts {
 	color: white;
 }
 .nav-left img {
@@ -152,6 +155,11 @@ fieldset {
 	padding: 4em 0 2em 0;
 }
 
+.top-coffee-title {
+	border-bottom-left-radius: 20%;
+	border-bottom-right-radius: 20%;
+	background-color: #151412;
+}
 fieldset legend {
 	margin: 0 auto;
 }
@@ -276,6 +284,7 @@ fieldset legend {
 .slider-desc h3,
 .coffeeinfo-desc h3 {
 	padding-top: 2em;
+	color: white;
 }
 .coffeeinfo-desc {
 	display: flex;
@@ -388,10 +397,6 @@ fieldset legend {
 	color: #bd9b81;
 }
 
-.review-texts {
-	color: white;
-}
-
 .review-carousel {
 	color: white;
 	text-align: center;
@@ -478,6 +483,7 @@ fieldset legend {
 
 .footer h3 {
 	padding-bottom: 1.5em;
+	color: white;
 }
 
 .footer a {
@@ -543,7 +549,10 @@ fieldset legend {
 		margin: auto auto;
 		grid-template-columns: repeat(1, 1fr);
 	}
-	.lower-body {
+	.lower-body,
+	.menu-list,
+	.extras,
+	.cafe-food {
 		flex-wrap: wrap;
 	}
 	.lower-body img {
@@ -574,14 +583,18 @@ fieldset legend {
 	background-image: url("https://cdn.pixabay.com/photo/2017/08/06/07/10/coffee-2589763_960_720.jpg");
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
 	align-items: center;
-	padding-top: 5em;
+	justify-content: center;
+	height: 100%;
+	padding: 8em;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .menu-titlebar p {
 	color: #c7a17a;
-	padding-bottom: 5em;
 }
 
 .menu-legend {
@@ -594,23 +607,220 @@ fieldset legend {
 }
 .menu-container {
 	background-color: #f2f0ea !important;
-	height: 100em;
+	padding-bottom: 10em;
 }
 
-.menu-titles {
-	display: flex;
-	justify-content: space-between;
-	width: 70%;
-	margin: auto auto;
-	padding-top: 5em;
-}
-
-.menu-titles h1 {
+.drink-title h1,
+.food-title h1 {
 	color: black;
+	text-transform: uppercase;
 }
-
 .menu-title-border {
 	border-bottom: 3px solid #c7a17a;
 	height: 1em;
 	width: 30%;
+}
+
+.menu-list {
+	display: flex;
+	width: 70%;
+	margin: auto auto;
+	gap: 8em;
+	justify-content: center;
+}
+
+.drinks {
+	flex: 50%;
+	display: grid;
+	grid-template-columns: repeat(1, 1r);
+	gap: 5em;
+	padding-top: 2em;
+}
+
+.img-container img {
+	cursor: pointer;
+}
+.coffee-items {
+	display: flex;
+	gap: 1em;
+	white-space: pre-wrap;
+}
+.menu-top {
+	display: flex;
+	justify-content: space-between;
+}
+
+.coffee-menu-title {
+	border-bottom: 1px solid black;
+}
+.menu-top .menu-top h2,
+.menu-desc h1,
+h3 {
+	color: black;
+}
+
+.menu-top h3:nth-child(1) {
+	text-transform: uppercase;
+}
+.flavors h2,
+.additional h2 {
+	color: #30271c;
+	padding-bottom: 2em;
+}
+
+.extra-desc .extrass-title {
+	border-bottom: 3px solid #c7a17a;
+	padding-bottom: 1em;
+	width: 30%;
+	margin-bottom: 2em;
+}
+
+.menu-desc {
+	display: flex;
+	flex-direction: column;
+	gap: 1em;
+	width: 100%;
+}
+
+.menu-desc p {
+	color: #c7a17a;
+}
+
+.menu-bot {
+	display: flex;
+	justify-content: space-between;
+}
+
+.menu-bot .coffee-type {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #c7a17a;
+	height: 2em;
+	width: 10em;
+}
+
+.coffee-type p {
+	color: #27190e;
+}
+
+.menu-bot div:nth-child(1) {
+	width: 80%;
+}
+
+.extras {
+	padding-top: 2em;
+	width: 70%;
+	margin: auto auto;
+	display: flex;
+	justify-content: center;
+	gap: 10em;
+}
+
+.extras-title {
+	padding-top: 5em;
+	display: flex;
+	width: 70%;
+	margin: auto auto;
+	justify-content: space-between;
+}
+
+.flavors {
+	width: 40%;
+	text-align: center;
+}
+
+.flavors h3,
+.flavors p,
+.flavors h4,
+.drizzle h3,
+.toppings h4,
+.toppings p {
+	color: #666;
+}
+
+.flavors h4,
+.toppings h4 {
+	font-size: 1.1em;
+}
+.extra-container {
+	display: flex;
+	flex-direction: column;
+	gap: 3em;
+	padding-left: 10em;
+}
+
+.cafe-bottom {
+	margin-top: 5em;
+}
+.cafe-bot-img {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 5em;
+	background-image: url("https://www.cafevertical.com/wp-content/uploads/2019/04/inside-vertical-cafe.jpg");
+	height: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.cafe-bot-img img {
+	width: 15%;
+}
+
+.cafe-food-title {
+	background-color: #151412 !important;
+	border-bottom-left-radius: 20%;
+	border-bottom-right-radius: 20%;
+}
+
+.cafe-food {
+	display: flex;
+	width: 70%;
+	margin: 8em auto 0 auto;
+	gap: 6em;
+}
+
+.cafe-food img {
+	width: 70%;
+}
+
+.food-pad {
+	padding-bottom: 5em;
+}
+
+.cafe-item-cards {
+	padding-bottom: 1em;
+}
+
+.drizzle {
+	text-align: center;
+	width: 80%;
+	margin: auto auto;
+}
+
+.rightside {
+	display: flex;
+	flex-direction: column;
+	gap: 3em;
+}
+
+.additional {
+	display: flex;
+	flex-direction: column;
+	gap: 2em;
+	padding-top: 3em;
+}
+
+.toppings {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5em;
+}
+
+.toppings h3,
+.toppings p {
+	text-align: center;
 }

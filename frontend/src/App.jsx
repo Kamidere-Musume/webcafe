@@ -5,6 +5,9 @@ import Home from "./pages/Home";
 import { Route, Routes } from "react-router-dom";
 import MenuPage from "./pages/MenuPage";
 
+
+
+    // npx json-server --watch data/db.json --port 8000 
 function App() {
 	return (
 		<>
@@ -13,7 +16,6 @@ function App() {
 				<Route path="/" element={<Home />} />
 				<Route path="/menu" element={<MenuPage />} />
 			</Routes>
-
 			<Footer />
 		</>
 	);

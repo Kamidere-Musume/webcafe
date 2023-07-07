@@ -1,19 +1,19 @@
 {
-  "warm-drinks":[
+	"warm-drinks": [
 		{
 			"title": "Coffee",
 			"description": "Locally roasted using 'Brazallian Santos' beans. (Dark, Blonde, Jamaican, Italian & Decaf roasts) -12 oz & 20 oz",
 			"price": "$1.60 / $2.05",
 			"type": "coffee",
 			"img": "https://www.cafevertical.com/wp-content/uploads/2019/04/coffee-150x150.jpg",
-      "id":1
+			"id": 1
 		},
 		{
 			"title": "Americano",
 			"description": "Espresso Shot, Hot Water - 12oz & 20oz",
 			"price": "$2.25 / $3.00",
 			"type": "americano",
-      "img" :"https://www.cafevertical.com/wp-content/uploads/2017/01/h-1-list-icon-img-4-150x150.jpg",
+			"img": "https://www.cafevertical.com/wp-content/uploads/2017/01/h-1-list-icon-img-4-150x150.jpg",
 			"id": 2
 		},
 		{
@@ -90,94 +90,349 @@
 		}
 	],
 
-  "cold-drinks":[
+	"cold-drinks": [
 		{
 			"title": "bubble tea",
 			"description": "Comes in two sizes -20oz",
 			"price": "$1.60 / $2.05",
 			"type": "coffee",
-      "img":"https://www.cafevertical.com/wp-content/uploads/2021/10/bubbletea-150x150.jpg",
-      "id": 1 
+			"img": "https://www.cafevertical.com/wp-content/uploads/2021/10/bubbletea-150x150.jpg",
+			"id": 1
 		},
 		{
 			"title": "frozen lemonade",
 			"description": "Choice of Flavors (Strawberr, Blueberry, Raspberry & Blue Raspberry)-20oz",
 			"price": "$2.99",
 			"type": "lemonade",
-      "img":"https://www.cafevertical.com/wp-content/uploads/2019/04/frozen-lemonade-150x150.jpg",
-      "id": 2
+			"img": "https://www.cafevertical.com/wp-content/uploads/2019/04/frozen-lemonade-150x150.jpg",
+			"id": 2
 		},
-    {
+		{
 			"title": "Real Fruit Smoothies",
 			"description": "Made with REAL FRUIT (Included 1 Fruit), Available in several flavors-Strawberry, Blueberry, Mixed berry, Mango, Banana or Peanut Butter(additional fruit .25 each)-20oz",
 			"price": "$4.99",
 			"type": "smoothie",
-      "img":"https://www.cafevertical.com/wp-content/uploads/2017/01/home-3-icon-img-5-150x150.png",
-      "id": 3 
+			"img": "https://www.cafevertical.com/wp-content/uploads/2017/01/home-3-icon-img-5-150x150.png",
+			"id": 3
 		},
-    {
+		{
 			"title": "organic protein shake ",
 			"description": "Muscle Protein Powder, Choice of Milk (Whole, Almond, Skim, Soy). Add fruit for $.50-20oz",
 			"price": "$5.60",
 			"type": "protein",
-      "img":"https://www.cafevertical.com/wp-content/uploads/2019/06/protein-shake-150x150.jpg",
-      "id": 4
+			"img": "https://www.cafevertical.com/wp-content/uploads/2019/06/protein-shake-150x150.jpg",
+			"id": 4
 		},
-    {
+		{
 			"title": "iced coffee protein shake",
 			"description": "Iced coffee, Protein Powder, Almond Milk, Mocha (add real fruit for additional .25)-20oz",
 			"price": "$5.15",
 			"type": "iced protein",
-      "img":"https://www.cafevertical.com/wp-content/uploads/2019/03/IMG_2760-150x150.png",
-      "id": 5
+			"img": "https://www.cafevertical.com/wp-content/uploads/2019/03/IMG_2760-150x150.png",
+			"id": 5
 		},
-    {
+		{
 			"title": "iced coffee",
 			"description": "Fresh Brewed Coffeem Ice-20oz",
 			"price": "$3.00",
 			"type": "iced coffee",
-      "img":"https://www.cafevertical.com/wp-content/uploads/2019/03/IMG_2466-150x150.jpg",
-      "id": 6
+			"img": "https://www.cafevertical.com/wp-content/uploads/2019/03/IMG_2466-150x150.jpg",
+			"id": 6
 		},
-    {
+		{
 			"title": "frappe",
 			"description": "Frappe Mix, Whole Milk, Ice and Choice of Flavors-20oz",
 			"price": "$5,50",
 			"type": "frappe",
-      "img":"https://www.cafevertical.com/wp-content/uploads/2019/04/IMG_3224-150x150.jpg",
-      "id": 7
+			"img": "https://www.cafevertical.com/wp-content/uploads/2019/04/IMG_3224-150x150.jpg",
+			"id": 7
 		},
-    {
+		{
 			"title": "iced latte",
 			"description": "Espresso Milk, Ice and Choice of Flavors-20oz",
 			"price": "$4.15",
 			"type": "iced latte",
-      "img":"https://www.cafevertical.com/wp-content/uploads/2017/01/h-1-list-icon-img-8-150x150.jpg",
-      "id": 8
+			"img": "https://www.cafevertical.com/wp-content/uploads/2017/01/h-1-list-icon-img-8-150x150.jpg",
+			"id": 8
 		},
-    {
+		{
 			"title": "iced capp",
 			"description": "Espresso w/Smoothed Layer of Froth, Ice-20oz",
 			"price": "$4.75",
 			"type": "iced capp",
-      "img":"https://www.cafevertical.com/wp-content/uploads/2017/01/home-3-icon-image-4-150x150.png",
-      "id": 9
+			"img": "https://www.cafevertical.com/wp-content/uploads/2017/01/home-3-icon-image-4-150x150.png",
+			"id": 9
 		},
-    {
+		{
 			"title": "iced latte vertical",
 			"description": "Espresso, Milk Ice and Choice of Flavors-20oz",
 			"price": "$4.99",
 			"type": "iced vertical",
-      "img":"https://www.cafevertical.com/wp-content/uploads/2017/01/h-1-list-icon-img-10-150x150.jpg",
-      "id": 10
+			"img": "https://www.cafevertical.com/wp-content/uploads/2017/01/h-1-list-icon-img-10-150x150.jpg",
+			"id": 10
 		},
-    {
+		{
 			"title": "iced tea",
 			"description": "Freshed Brewed Tea, Ice(Green or Black)-20oz",
 			"price": "$2.15",
 			"type": "iced tea",
-      "img":"https://www.cafevertical.com/wp-content/uploads/2019/04/hot-coco-150x150.jpg",
-      "id": 11
+			"img": "https://www.cafevertical.com/wp-content/uploads/2019/04/hot-coco-150x150.jpg",
+			"id": 11
+		}
+	],
+
+	"cafe-foods": [
+		{
+			"title": "bagels",
+			"description": "Everything and Plain (Cream Cheese add .75)",
+			"price": "$2.50",
+			"type": "bagel",
+			"img": "https://www.cafevertical.com/wp-content/uploads/2019/04/IMG_3220-150x150.jpg",
+			"category": "sandwiches/wraps",
+			"id": 1
+		},
+		{
+			"title": "breakfast sandwich",
+			"description": "Choices are: English Muffin or Bagel. Egg & Cheese w/Ham, Sausage or Bacon",
+			"price": "$4.95",
+			"type": "sandwiches",
+			"img": "https://www.cafevertical.com/wp-content/uploads/2019/04/IMG_3216-e1555285673402-150x150.jpg",
+			"category": "sandwiches/wraps",
+			"id": 2
+		},
+		{
+			"title": "chicken bacon ranch panini",
+			"description": "Inclues: Chicken Salad, Bacon & Ranch",
+			"price": "$9.30",
+			"type": "chickenbr-panini",
+			"img": "https://www.cafevertical.com/wp-content/uploads/2019/04/panini-150x150.jpg",
+			"category": "sandwiches/wraps",
+			"id": 3
+		},
+		{
+			"title": "turkey avocado panini",
+			"description": "Includes: Turkey, Avocado & your chioce of toppings",
+			"price": "$9.30",
+			"type": "turkey-panini",
+			"img": "https://www.cafevertical.com/wp-content/uploads/2019/04/panini-150x150.jpg",
+			"category": "sandwiches/wraps",
+			"id": 4
+		},
+		{
+			"title": "Buffalo chicken panini",
+			"description": "Includes: Chicken, Hot Sauce, your choice of ranch or blue cheese",
+			"price": "$8.99",
+			"type": "chickenbuffpanini",
+			"img": "https://www.cafevertical.com/wp-content/uploads/2019/04/panini-150x150.jpg",
+			"category": "sandwiches/wraps",
+			"id": 5
+		},
+		{
+			"title": "turkey presto panini",
+			"description": "Includes: Turkey, Presto & your choice of toppings",
+			"price": "$8.99",
+			"type": "turkeyp-panini",
+			"img": "https://www.cafevertical.com/wp-content/uploads/2019/04/panini-150x150.jpg",
+			"category": "sandwiches/wraps",
+			"id": 6
+		},
+		{
+			"title": "breakfast wrap",
+			"description": "Egg 7 Chees w/Ham, Sausage or Bacon",
+			"price": "$6.50",
+			"type": "breakfast-wrap",
+			"img": "https://www.cafevertical.com/wp-content/uploads/2019/03/IMG_3166-150x150.jpg",
+			"category": "sandwiches/wraps",
+			"id": 7
+		},
+		{
+			"title": "wraps",
+			"description": "Choices are: Build your Own (Bread: White/Wheat/Spinach)",
+			"price": "$7.99",
+			"type": "wraps",
+			"img": "https://www.cafevertical.com/wp-content/uploads/2019/03/IMG_3166-150x150.jpg",
+			"category": "sandwiches/wraps",
+			"id": 8
+		},
+		{
+			"title": "california wrap",
+			"description": "Includes: Turkey, Avocado, Bacon, Lettuce, Tomato, Provolone & Honey Mustard",
+			"price": "$10.25",
+			"type": "cali-wrap",
+			"img": "https://www.cafevertical.com/wp-content/uploads/2019/03/IMG_3166-150x150.jpg",
+			"category": "sandwiches/wraps",
+			"id": 9
+		},
+		{
+			"title": "greek chicken wrap",
+			"description": "Includes: Chicken, Feta,Tzatziki Sauce, Lettuce, Cucumber $ Tomato",
+			"price": "$9.25",
+			"type": "greek-wrap",
+			"img": "https://www.cafevertical.com/wp-content/uploads/2019/03/IMG_3166-150x150.jpg",
+			"category": "sandwiches/wraps",
+			"id": 10
+		},
+		{
+			"title": "cranberry blue wrap",
+			"description": "Includes: Chicken, Crumbled Blue Cheese, Craisians, Lettucem Cucumber, Tomato & Balsamic Dressing",
+			"price": "$9.25",
+			"type": "cranblue-wrap",
+			"img": "https://www.cafevertical.com/wp-content/uploads/2019/03/IMG_3166-150x150.jpg",
+			"category": "sandwiches/wraps",
+			"id": 11
+		},
+		{
+			"title": "manwrap",
+			"description": "Comes with: Ham, Turkey, Bacon, Sausage, Lettuce, Tomato, Onion, Spinach, Cucumber, Mayo & Honey Mustard",
+			"price": "$10.25",
+			"type": "manwrap",
+			"img": "https://www.cafevertical.com/wp-content/uploads/2017/01/food-150x150.jpg",
+			"category": "sandwiches/wraps",
+			"id": 12
+		},
+		{
+			"title": "wrap tray",
+			"description": "Tray of delicious homemade wraps",
+			"price": "CALL FOR PRICING",
+			"type": "wrap-tray",
+			"img": "https://www.cafevertical.com/wp-content/uploads/2021/10/wrap-tray-150x150.jpg",
+			"category": "sandwiches/wraps",
+			"id": 13
+		},
+		{
+			"title": "mediterranean",
+			"description": "Toppings include: Tzakitki Sauce Base, Chicken, Feta Cheese, Tomatoes, Olives & Olive Oil Drizzle",
+			"price": "$9.50",
+			"type": "med-pizza",
+			"img": "https://www.cafevertical.com/wp-content/uploads/2021/03/IMG_15331.jpg",
+			"category": "flatbread",
+			"id": 14
+		},
+		{
+			"title": "chipotle",
+			"description": "Toppings include: Chipotle Sauce Base, Chicken, Cheddar Cheese, Tomatoes, Ranch Drizzle",
+			"price": "$9.50",
+			"type": "chipotle-pizza",
+			"img": "https://www.cafevertical.com/wp-content/uploads/2021/03/IMG_15331.jpg",
+			"category": "flatbread",
+			"id": 15
+		},
+		{
+			"title": "caprese",
+			"description": "Toppings include: Basil Pesto Base, Mozzarella Cheese, Spinach, Tomatoes, Basel Herb Oil Drizzle",
+			"price": "$9.50",
+			"type": "carpese-pizza",
+			"img": "https://www.cafevertical.com/wp-content/uploads/2021/03/IMG_15331.jpg",
+			"category": "flatbread",
+			"id": 16
+		},
+		{
+			"title": "ny style",
+			"description": "toppings include: Red Sauce Base, Mozzarella Cheese, Special Seasoning & Pepperoni",
+			"price": "$9.50",
+			"type": "ny-pizza",
+			"img": "https://www.cafevertical.com/wp-content/uploads/2021/03/IMG_15331.jpg",
+			"category": "flatbread",
+			"id": 17
+		},
+		{
+			"title": "tropical bowl",
+			"description": "Organic Açaí blended w/Almond Milk, Mangos (topped w/kiwi, blackberries, bananas, coconut flakes, sunflower seeds)",
+			"price": "$10.99",
+			"type": "acai-tropical",
+			"img": "https://www.cafevertical.com/wp-content/uploads/2022/02/IMG_69331-150x150.jpg",
+			"category": "acai",
+			"id": 18
+		},
+		{
+			"title": "powerfit bowl",
+			"description": "Organic Açaí blended w/Oat Milk, Peanut butter, Protein Powder (topped w/bananas, Omega-3 trail mix, sliced almonds))",
+			"price": "$10.99",
+			"type": "acai-powerfit",
+			"img": "https://www.cafevertical.com/wp-content/uploads/2022/02/IMG_69331-150x150.jpg",
+			"category": "acai",
+			"id": 19
+		},
+		{
+			"title": "classical bowl",
+			"description": "Organic Açaí blended w/Almond Milk, Blueberries, Strawberries (topped w.granola, blueberries, strawberries, coconut flakes)",
+			"price": "$10,99",
+			"type": "acai-classic",
+			"img": "https://www.cafevertical.com/wp-content/uploads/2022/02/IMG_69331-150x150.jpg",
+			"category": "acai",
+			"id": 20
+		},
+		{
+			"title": "'build-your-own' salad",
+			"description": "Build your own sala plus 1 protein & 5 toppings",
+			"price": "$10.35",
+			"type": "byo-sala",
+			"img": "https://www.cafevertical.com/wp-content/uploads/2019/04/IMG_3217-e1555328368992-150x150.jpg",
+			"category": "salad",
+			"id": 21
+		},
+		{
+			"title": "vertical signature salad",
+			"description": "Lettuce, Spinach, Cucumber, Tomato, Craisins, Almonds, Crumbled Blue Cheese, Chicken, & Balsamic Vinaigrette",
+			"price": "$10.35",
+			"type": "vertical-salad",
+			"img": "https://www.cafevertical.com/wp-content/uploads/2019/04/IMG_3217-e1555328368992-150x150.jpg",
+			"category": "salad",
+			"id": 22
+		},
+		{
+			"title": "greek chicken bowl",
+			"description": "Chicken, Cucumber, Feta, Black Olives, Tzatziki Sauce on Spinach",
+			"price": "$9.25",
+			"type": "greel-chick-bowl",
+			"img": "https://www.cafevertical.com/wp-content/uploads/2019/04/IMG_3217-e1555328368992-150x150.jpg",
+			"category": "salad",
+			"id": 23
+		},
+		{
+			"title": "oversized cookies",
+			"description": "Delicious Oversized fresh cookies",
+			"price": "$2.50",
+			"type": "cookies",
+			"img": "https://www.cafevertical.com/wp-content/uploads/2019/04/IMG_3234-150x150.jpg",
+			"category": "sweets",
+			"id": 24
+		},
+		{
+			"title": "muffins",
+			"description": "Assorted Large Muffins",
+			"price": "$3.25",
+			"type": "muffins",
+			"img": "https://www.cafevertical.com/wp-content/uploads/2019/04/IMG_3233-150x150.jpg",
+			"category": "sweets",
+			"id": 25
+		},
+		{
+			"title": "brownies",
+			"description": "",
+			"price": "$1.75",
+			"type": "brownies",
+			"img": "https://www.cafevertical.com/wp-content/uploads/2019/04/IMG_3235-150x150.jpg",
+			"category": "sweets",
+			"id": 26
+		},
+		{
+			"title": "hot soft pretzels",
+			"description": "Soft Hot Pretzels (add $0.25 for cheese)",
+			"price": "$4.99",
+			"type": "pretzels",
+			"img": "https://www.cafevertical.com/wp-content/uploads/2019/04/IMG_29701-150x150.jpg",
+			"category": "sweets",
+			"id": 27
+		},
+		{
+			"title": "misc goodies",
+			"description": "Assorted Goodies from Vetical - Cinnamon ROlls & Other Baked Goods 🙂",
+			"price": "",
+			"type": "goodies",
+			"img": "https://www.cafevertical.com/wp-content/uploads/2019/04/IMG_3226-e1555344649218-150x150.jpg",
+			"category": "sweets",
+			"id": 28
 		}
 	]
 }
