@@ -12,7 +12,7 @@ function Footer() {
 	];
 	return (
 		<div className="footer">
-			<div className="contact">
+			<div className="contact-foot">
 				<h3>CONTACT US</h3>
 				<p>
 					<span style={{ color: "white", fontWeight: "700" }}>
@@ -42,7 +42,7 @@ function Footer() {
 					);
 				})}
 			</div>
-			<div className="news">
+			<div className="news-foot">
 				<h3>VERTICAL NEWS</h3>
 				<div className="subNews">
 					<h4>

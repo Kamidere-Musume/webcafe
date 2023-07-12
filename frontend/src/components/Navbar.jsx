@@ -16,73 +16,64 @@ const nav = [
 	{
 		title: "VERTICAL NEWS",
 		icon: <i className="fa-solid fa-mug-hot"></i>,
-		link: "/",
+		link: "/news",
 		id: 3,
 	},
 	{
 		title: "ABOUT VERTICAL",
 		icon: <i className="fa-solid fa-mug-hot"></i>,
-		link: "/",
+		link: "/about",
 		id: 4,
 	},
 	{
 		title: "CONTACT US",
 		icon: <i className="fa-solid fa-mug-hot"></i>,
-		link: "/",
+		link: "/contact",
 		id: 5,
 	},
 ];
 
 function Navbar() {
 	return (
-		<>
-			<div className="navbar">
-				<div className="nav-top">
-					<div className="top-item">
-						<p>Call us 1-5825-786-9819</p>
-					</div>
-					<div className="top-item">
-						<p>Contact@cafevertical.com</p>
-					</div>
-					<div className="top-item">
-						<p>Call us 1-5825-786-9819</p>
-					</div>
-					<div className="top-item special">
-						<i className="fa-duotone fa-cup-togo"></i>
-						<i className="fa-brands fa-facebook-f"></i>
-						<i className="fa-brands fa-google"></i>
-						<i className="fa-brands fa-yelp"></i>
-					</div>
+		<div className="navbar">
+			<div className="nav-top">
+				<div className="top-item">
+					<p>Call us 1-5825-786-9819</p>
 				</div>
-
-				<div className="nav-bot">
-					<div className="nav-left">
-						<img
-							src="https://www.cafevertical.com/wp-content/uploads/2019/03/vertical-logo-img-w.png"
-							alt=""
-						/>
-						<h2>Vertical Cafe</h2>
-					</div>
-
-					<div className="nav-right">
-						{nav.map((items) => {
-							return (
-								<a key={items.id} href={items.link}>
-									{items.icon} {items.title}
-								</a>
-							);
-						})}
-
-						<div className="icons">
-							<i
-								className="fa-solid fa-magnifying-glass"
-								style={{ color: "#ffffff" }}></i>
-							<i className="fa-solid fa-bars" style={{ color: "#ffffff" }}></i>
-						</div>
-					</div>
+				<div className="top-item">
+					<p>Contact@cafevertical.com</p>
+				</div>
+				<div className="top-item">
+					<p>Call us 1-5825-786-9819</p>
+				</div>
+				<div className="top-item special">
+					<i className="fa-duotone fa-cup-togo"></i>
+					<i className="fa-brands fa-facebook-f"></i>
+					<i className="fa-brands fa-google"></i>
+					<i className="fa-brands fa-yelp"></i>
 				</div>
 			</div>
-		</>
+
+			<div className="nav-bot">
+				<div className="nav-left">
+					<img
+						src="https://www.cafevertical.com/wp-content/uploads/2019/03/vertical-logo-img-w.png"
+						alt=""
+					/>
+					<h2>Vertical Cafe</h2>
+				</div>
+
+				<div className="nav-right">
+					{nav.map((items) => {
+						return (
+							<a key={items.id} href={items.link}>
+								{items.icon} {items.title}
+							</a>
+						);
+					})}
+				</div>
+			</div>
+		</div>
 	);
 }
 
